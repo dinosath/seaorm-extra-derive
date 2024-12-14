@@ -1,0 +1,15 @@
+[package]
+name = "seaorm-extra-derive"
+version = "0.0.0"
+authors = ["Konstantinos Athanasiou <dinosath0@gmail.com>"]
+edition = "2021"
+publish = false
+
+[lib]
+proc-macro = true
+path = "src/lib.rs"
+
+[dependencies]
+proc-macro2 = "1"
+quote = "1"
+syn = "2"
